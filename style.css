@@ -1,0 +1,532 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navbar-shoes{
+height:50px;
+    background-color:#aa9155;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+ overflow: hidden;  
+
+}
+
+
+.navbartag{
+
+    color:black;
+    text-decoration:none;
+    padding-top:0.5rem;
+}
+.icon{
+    
+  
+    padding-right:12rem; 
+    padding-top:0.5em;
+    display: flex;
+   
+    
+}
+.icon input{
+    border-radius:10px;
+    width:10em;}
+.icon2{
+    margin-left:5rem;
+    padding-top:1em;
+}
+
+
+.navbar-shoes:hover{
+    border:1px solid white;
+}
+.navbarnam:hover{
+    border:1px solid white;
+}
+.navbartag:hover{
+    border:1px solid white;
+
+}
+
+.icon2:hover{
+    border:1px solid  white;
+}
+.container{
+
+    width:100%;
+    overflow: hidden;
+   /* background-color:#0a5132;*/
+   background-color:#6b7694;
+
+}
+.background{
+
+    height:550px;
+     width:85%;
+background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRxuryYasg6eNl93RcTISRyGKifB45bbXADl0QX3uEkQW2V1t2ZSVVkhiuV3lIgwCVWoMMPNSjCjl01m2HRUNzylddZjnaypqp9azzwUFPGv0oXqDs1ldTBHA");
+background-size:cover;
+margin:10px auto;
+animation: backgroundshoes 10s ease 5s infinite alternate ;
+
+}
+@keyframes backgroundshoes {
+    0%{
+        background-imge:url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR6FDB107JthNdMOb7HHqe7OeocKETIpXCzXngZK2_3C6AtnSacGoCdsUy4h3xtmEradeKy_CYAaiTmG2c9_e_-8gXJmo5MArlelW83xgYrA9ZjcQwqgQYzzg");
+    background-size:cover;
+    
+    }
+    25%{
+        background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRHO3ZC2Ats-VLRVPbFsHouzVLPSHwXGzy_PYWN4FQsxwhw36rm6KPC6LfUXJSQSRjzcIzoVkYsX_6N5CMwQGKjDjKp9_GuzM60vF7NoqgxHDDCoZ8NU1Bn9lo&usqp=CAE");
+        background-size:cover;
+
+    }
+    50%{
+        background-image: url("https://paragonfootwear.com/cdn/shop/products/K1220G_GRY_1.jpg?v=1697016395");
+        background-size:cover;
+
+    }
+    75%{
+        background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqe7_nVAxNv8NebK_FdcBCKdUCA2_LoQZ4w&s");
+        background-size:cover;
+
+    }
+
+    100%{
+        background-image: url("https://paragonfootwear.com/cdn/shop/products/K1220G_NYB_1.jpg?v=1697016426");
+        background-size:cover;
+
+    }
+    
+}
+#imageshoes{
+padding-right:9rem;
+height:5em;
+width:5em;
+}
+img{
+    height:5em;
+    width:5em;
+    border-radius:20px;
+    box-shadow: 2px 2px 5px black;;
+}
+
+.navbarcetegriy{
+width:90%;
+display:flex;
+overflow: hidden;
+
+}
+.navbarcetegriy a{
+    text-decoration:none;
+    margin: 20px auto;
+    color:rgb(224, 167, 94);
+    font-size:1em;
+    font-weight:bolder;
+  
+}
+.navbarcetegriy a:hover{
+    text-decoration: black underline;
+    line-height: 2;
+    box-shadow: 2px 2px 5px black;
+}
+/*background-imge done*/
+
+.container_itmes{
+    width:100%;
+    height:100%;
+ display: flex;;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+background-color:#6b7694;
+
+overflow: hidden;
+}
+.itms_photo{
+    height: 200px;
+    width:40%;
+    border-radius:10px;
+    margin-top:2em;
+    border-radius:10px;
+    overflow:hidden; 
+    
+   
+}
+.itms_photo:hover{
+    box-shadow: 4px 4px 7px white;
+}
+.itms_photo_kids{
+    height:200px;
+    margin-top:4em;
+  width:40%;
+    
+
+}
+
+.itms_photo img{
+    width:100%;
+  height:100%;
+ 
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+.itms_photo_kids img{
+    width:100%;
+    height:100%;
+    box-shadow: 2px 2px 5px black;
+    border-radius:10px;
+}
+.itms_photo img:hover{
+    transform: perspective(100px) scale(1,1.2);
+    box-shadow: 3px 3px 7px white;
+}
+.itms_photo_kids img:hover{
+    box-shadow: 8px 4px 8px white;
+    transform: rotate(5deg);
+}
+.footer{
+
+    width:100%;
+
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#7b8679;
+
+}
+
+
+
+
+.follow div i{
+    padding-right:1em;
+}
+.footer div{
+
+    margin-top:1em;
+    transition: 2s linear;
+
+}
+/*media quary*/
+
+@media (min-width: 425px) and (max-width: 576px) {
+    .navbar-shoes{
+  
+        width:100%;
+        
+   }
+   .icon{
+    padding-right: 0px;
+   }
+   #imageshoes{
+
+  
+    padding-right: 0px;
+
+   }
+   .navbartag{
+    font-size:0.6em;
+    margin-left:1em;
+    display:flex;
+   }
+
+   .icon2{
+    font-size:0.6em;
+    margin-left:0.7px;
+    padding-top:1em;
+}
+/*navbar complit*/
+
+.navbarcetegriy a{
+    text-decoration:none;
+    margin: 20px auto;
+    color:rgb(224, 167, 94);
+    font-size:0.7em;
+    font-weight:bolder;
+    padding-left: 1em;
+  
+
+}
+.container{
+
+    height:500px;
+
+
+    
+}
+.background{
+    height:500px;
+}
+
+
+.itms_photo img:hover{
+    transform: perspective(100px) scale(1.5,1.5);
+    box-shadow: 4px 4px 7px white;
+}
+
+}
+@media (min-width:576px) and (max-width:768px) {
+
+    .navbar-shoes{
+  
+        width:100%;
+        
+    
+}
+.icon{
+    padding-right: 0px;
+   }
+   #imageshoes{
+
+  
+    padding-right: 0px;
+
+   }
+   .navbartag{
+    font-size:0.8em;
+    margin-left:1em;
+    display:flex;
+   }
+   .icon2{
+    font-size:0.9em;
+    margin-left:0.7px;
+    padding-top:0.9em;
+}
+.navbarcetegriy a{
+    text-decoration:none;
+    margin: 20px auto;
+    color:rgb(224, 167, 94);
+    font-size:1em;
+    font-weight:bolder;
+    padding-left: 1em;
+  
+
+}
+.container{
+
+    height:500px;
+
+
+    
+}
+
+
+}
+@media (min-width:375px)  and (max-width:425px){
+
+    .navbar-shoes{
+  
+        width:100%;
+        display: flex;
+       
+   }
+   .icon{
+    padding-right: 0px;
+    
+   }
+   .icon input{
+    width:6em;
+   }
+   #imageshoes{
+
+  
+    padding-right: 0px;
+ width:2px;
+    opacity: 0;
+ 
+
+   }
+   .navbartag{
+    font-size:0.6em;
+    margin-left:1.5em;
+    display:flex;
+   }
+
+   .icon2{
+    font-size:0.6em;
+    margin-right:1em;
+    padding-top:1em;
+}
+
+.navbarcetegriy a{
+    text-decoration:none;
+    margin: 20px auto;
+    color:rgb(224, 167, 94);
+    font-size:0.7em;
+    font-weight:bolder;
+    padding-left: 1em;
+  
+
+}
+.container{
+
+    height:400px;
+
+
+    
+}
+.background{
+    height:400px;
+}
+.footer{
+
+    width:100%;
+
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#7b8679;
+
+}
+
+.footer{
+
+    width:100%;
+
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+    background-color:#7b8679;
+    font-size:1em;
+
+}
+
+
+
+
+.follow div i{
+    padding-right:0.5em;
+}
+.footer div{
+
+    margin-top:1em;
+    transition: 2s linear;
+font-size: 1em;
+}
+.footer h1{
+font-size:1em;
+}
+#contacts{
+   display: flex;
+
+}
+   
+}
+@media (min-width:768px) and (max-width:980px) {
+    
+
+
+.navbar-shoes{
+  
+    width:100%;
+    display: flex;
+   
+}
+.icon{
+padding-right: 0px;
+
+}
+.icon input{
+width:9em;
+}
+#imageshoes{
+
+
+padding-right: 0px;
+
+
+
+}
+.navbartag{
+font-size:1.5m;
+margin-left:1.5em;
+display:flex;
+}
+
+.icon2{
+font-size:0.6em;
+margin-right:1em;
+padding-top:1em;
+}
+
+.navbarcetegriy a{
+text-decoration:none;
+margin: 20px auto;
+color:rgb(224, 167, 94);
+font-size:1em;
+font-weight:bolder;
+padding-left: 1em;
+
+
+}
+.container{
+
+height:400px;
+
+
+
+}
+.background{
+height:400px;
+}
+.footer{
+
+width:100%;
+
+height:300px;
+display:flex;
+justify-content: space-between;
+background-color:#7b8679;
+
+}
+
+.footer{
+
+width:100%;
+
+height:300px;
+display:flex;
+justify-content: space-between;
+background-color:#7b8679;
+font-size:1em;
+
+}
+
+
+
+
+.follow div i{
+padding-right:0.5em;
+}
+.footer div{
+
+margin-top:1em;
+transition: 2s linear;
+font-size: 1em;
+}
+.footer h1{
+font-size:1em;
+}
+#contacts{
+display: flex;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
